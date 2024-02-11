@@ -49,33 +49,34 @@ As shown in the line charts, at the beginning of the period, the housing price i
 #### Correlation between Migration and the Property Prices Index in each State/Territory
 
 
-Until now, we have analysed the variables independently and which states and capitals have suffered the highest and lowest impacts.
+Until now, we have analysed the variables independently and which states and capitals have presented the highest and lowest impacts. 
 
-But how do they interact with each other? Is there any correlation? Some people suggest that the increase in housing prices can be explained by the rise in migrants  coming to Australia. Do we have data to support those allegations?
+But how do they interact with each other? Is there any correlation? Some people suggest that the increase in housing prices can be explained by the rise in migrants coming to Australia. Do we have data to support those allegations?
+
+We can use the quarterly data from June 2013 to December 2021, comprising 35 measurements to investigate these questions.
+
+By comparing the total net migration per state within that period with the property price index total variation in that same period, we have the following graph:
+
+![Scatter Plot](Screenshots/ScatterPlotScreenshot.png)
 
 
-We can use the quarterly data from June 2013 to December 2021, comprising 35 measurements to investigate these questions.  By comparing the total net migration per state within that period with the property price index total variation in that same period, we have the following graph:
-ADD SCATTER PLOT IMAGE (to be provided after the code is ready)
-
-The scatter plot above indicates that the results vary significantly from state to state. For instance, Tasmania and Northern Territory recorded the lowest net migration figures. Interestingly, these states differently in terms of the variation in the property price index. Tasmania had the highest positive variation, whereas the Nothern Territory had the highest negative variation. Western Australia, Victoria and New South Wales followed a similar ascending line in the chart, but the Australian Capital Territory, South Australia, and Queensland presented random patterns.
-
-The result is also inconclusive if we look at the numbers and calculate the correlation
-between these two variables per state. At a first glance, it may suggest a strong negative correlation between them.
-
-ADD TABLE WITH THE TOTAL CORRELATION (to be provided after the code is ready)
+add table
 
 However, it is important to keep in mind that part of the data available refers to a period that was heavily affected by the COVID-19 pandemic, which can drastically influence the data.
 
-ADD TABLE WITH THE TWO CORRELATIONS (to be provided after the code is ready)
+However, it is important to keep in mind that part of the data available refers to a period that was heavily affected by the COVID-19 pandemic, which can drastically influence the data.
 
-Let’s make an exercise and limit the measurements to the period not affected by the pandemic. As a result, we observe that the results are higher in all states, moving from negative to positive indexes in some of them. Nevertheless, it is still insufficient to establis a significant correlation between the variables. From a more visual perspective, it is clear from the line charts that these two indexes have entirely different and unrelated behaviours.
+Add table
 
-ADD LINE CHARTS (to be provided after the code is ready)
+Let’s make an exercise and limit the measurements to the period not affected by the pandemic. As a result, we observe that the results are higher in all states, moving from negative to positive indexes in some of them. Nevertheless, it is still insufficient to establish a significant correlation between the variables.
 
-Finally, after analyzing the available data, we cannot conclude that the property prices index is directly and significantly affected by the number of migrants entering or leaving Australia. While it may be one of the factors that impacts the housing market, any claims suggesting that one causes the other are incorrect and premature.
+From a more visual perspective, it is clear from the line charts that these two indexes have entirely different and unrelated behaviours. 
 
+Add graph
 
+Add graph
 
+Finally, after analyzing the available data, we cannot conclude that the property prices index is directly and significantly affected by the number of migrants entering or leaving Australia. While it may be one of the factors that impact the housing market, any claims suggesting that one causes the other are incorrect and premature.
 
 # References
 
