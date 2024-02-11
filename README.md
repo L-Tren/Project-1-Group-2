@@ -111,20 +111,20 @@ Finally, after analyzing the available data, we cannot conclude that the propert
 
 ### References
 
-Australian Bureau of Statistics, (2022a), "Graph 5.1 Net overseas migration(a) - larger states(b) - year ending" [CSV file]. Retrieved from https://www.abs.gov.au/statistics/people/population/overseas-migration/latest-release#cite-window1
+Australian Bureau of Statistics. (2022a). "Graph 5.1 Net overseas migration(a) - larger states(b) - year ending" [CSV file]. Retrieved from https://www.abs.gov.au/statistics/people/population/overseas-migration/latest-release#cite-window1
 
-Australian Bureau of Statistics, (2022b), "Graph 5.2 Net overseas migration(a) - smaller states and territories(b) - year ending" [CSV file]. Retrieved from https://www.abs.gov.au/statistics/people/population/overseas-migration/latest-release#cite-window1
+Australian Bureau of Statistics. (2022b). "Graph 5.2 Net overseas migration(a) - smaller states and territories(b) - year ending" [CSV file]. Retrieved from https://www.abs.gov.au/statistics/people/population/overseas-migration/latest-release#cite-window1
 
-Australian Bureau of Statistics, (2022c), "Residential Property Price Indexes, capital cities" [CSV file]. Retrieved from https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/residential-property-price-indexes-eight-capital-cities/latest-release
+Australian Bureau of Statistics. (2022c). "Residential Property Price Indexes, capital cities" [CSV file]. Retrieved from https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/residential-property-price-indexes-eight-capital-cities/latest-release
 
-Australian Bureau of Statistics. (2022d). Location Census. Australian Bureau of Statistics. https://www.abs.gov.au/statistics/people/people-and-communities/location-census/latest-release
+Australian Bureau of Statistics. (2022d). Location Census. Australian Bureau of Statistics. Retrieved from https://www.abs.gov.au/statistics/people/people-and-communities/location-census/latest-release
 
-Kehoe, J. (2024, January 19). Migration boosts house prices but not inflation. Australian Financial Review. https://www.afr.com/policy/economy/migration-boosts-house-prices-but-not-inflation-20240119-p5eyni#:~:text=Migration%20surges%20in%20Australia%20have,the%20International%20Monetary%20Fund%20suggests
+Kehoe, J. (2024, January 19). Migration boosts house prices but not inflation. Australian Financial Review. Retrieved from https://www.afr.com/policy/economy/migration-boosts-house-prices-but-not-inflation-20240119-p5eyni#:~:text=Migration%20surges%20in%20Australia%20have,the%20International%20Monetary%20Fund%20suggests
 
 Nicholas, J. (2023, December 12). Australia sees immigration data spike driving migration rate and housing prices. The Guardian. Retrieved from https://www.theguardian.com/news/datablog/2023/dec/12/australia-immigration-data-spike-migration-rate-housing-prices
 
-Pandas, (2024), pandas.Series.str.match. pandas documentation.
-Retrieved from https://pandas.pydata.org/docs/reference/api/pandas.Series.str.match.html
-
 OpenAI. (2022). ChatGPT [Computer software]. 
 Retrieved from https://openai.com/chatgpt
+
+Pandas. (2024). pandas.Series.str.match. pandas documentation.
+Retrieved from https://pandas.pydata.org/docs/reference/api/pandas.Series.str.match.html
