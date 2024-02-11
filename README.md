@@ -1,6 +1,6 @@
 # Project-1-Group-2
 
-Group members:
+### Group members:
 
    Fabiano Santos
    
@@ -11,18 +11,18 @@ Group members:
    Simone Nagel
     
     
-## Project title: A snapshot of net overseas migration and housing prices in Australia between June 2013 - December 2021
+# Project title: A snapshot of net overseas migration and housing prices in Australia between June 2013 - December 2021
 
-#### Abstract
+### Abstract
 This project investigates whether there is a relationship between net overseas migration and property prices in Australia over the period June 2013 to December 2021. The Australian Bureau of Statistics (ABS) was the key data source for researching the impact of net overseas migration on different states/territories (and their associated capital cities), aiming to address conflicting hypotheses in the media whether a relationship does in fact exist. 
 The project involved data cleansing processes to merge and filter data, followed by data analytics through visualizations. The findings suggest inconclusive evidence of a direct correlation between net overseas migration and property prices across Australia. Some of the current media speculation suggesting a strong positive relationship existing between the two variables is incorrect and premature.
 
 
-#### Introduction
+### Introduction
 There has been discussion in the media about overseas migration fuelling property price increases in Australia. An article in the Australian Financial Review (Kehoe, 2024) proposes migration in Australia has materially influenced rising property prices. Conversely an article from The Guardian (Nicholas, 2023) suggests that there is no conclusive evidence on migration affecting the Australian housing market.  As a team we set out to support or reject these conflicting hypotheses, and developed the following research questions.
 
 
-#### Research questions:
+### Research questions:
 1). What were the states/territories most and least impacted by overseas migration in the last 10 years?
 
 2). What were the capital cities most and least impacted by the rise in property prices in that same period?
@@ -30,7 +30,7 @@ There has been discussion in the media about overseas migration fuelling propert
 3). Is there any correlation between overseas migration and property prices?
 
 
-#### Data cleansing
+### Data cleansing
 
 The ABS separated the data for net overseas migration in two different CSV files, one for 'larger states' including NSW, VIC, QLD, and WA (Australian Bureau of Statistics, 2022a) and 'smaller states' including SA, TAS, NT, and ACT (Australian Bureau of Statistics, 2022b). The first task was to combine these two CSV files using the 'pd.merge' function into one dataframe, using the common variable of 'quarter'. The ABS data for residential property price index in capital cities (Australian Bureau of Statistics, 2022c) was also brought into its own data frame. 
 
@@ -72,7 +72,7 @@ The housing price has, in general, presented increasing trend for 6 of the capit
 
 The boxplot interestingly shows the presence of outliers in our data set. There are 9 upper boundary outliers, spread across Sydney, Brisbane, Adelaide, and Canberra, and only two lower boundary outliers both residing in Sydney. This demonstrates the volatility the property market has experienced, and has been taken into consideration for our analysis regarding the correlation between net overseas migration and property prices
 
-#### 3). Is there any correlation between overseas migration and property prices?
+### 3). Is there any correlation between overseas migration and property prices?
 
 
 Until now, we have analysed the variables independently and which states and capitals have presented the highest and lowest impacts. 
@@ -109,7 +109,7 @@ From a more visual perspective, it is clear from the line charts that these two 
 
 Finally, after analyzing the available data, we cannot conclude that the property prices index is directly and significantly affected by the number of migrants entering or leaving Australia. While it may be one of the factors that impact the housing market, any claims suggesting that one causes the other are incorrect and premature.
 
-## References
+### References
 
 Australian Bureau of Statistics, (2022a), "Graph 5.1 Net overseas migration(a) - larger states(b) - year ending" [CSV file]. Retrieved from https://www.abs.gov.au/statistics/people/population/overseas-migration/latest-release#cite-window1
 
