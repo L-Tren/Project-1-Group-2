@@ -10,17 +10,18 @@ Group members:
     
 #### Project title: A snapshot of net overseas migration and housing prices in Australia between June 2013 - December 2021
 
+#### Abstract
+This project examines net overseas migration and property prices in Australia using data from June 2013 - December 2021. Specifically, we examine whether and how property prices across Australia may be impacted by overseas net migration by analysing property price index in each state/territory. The housing data and net overseas migration data were both downloaded from the Australian Bureau of Statistics website in CSV format.  
+
 
 #### Introduction
-There has been discussion in the media about overseas migration fuelling property price increases. An article in the Australian Financial Review (Kehoe, 2024) proposes migration in Australia has materially influenced rising property prices. Conversely an article from The Guardian (Nicholas, 2023) suggests that there is no conclusive evidence on migration affecting the Australian housing market.  As a team we set out to support or reject these conflicting hypotheses.
-This project examines net overseas migration and property prices in Australia using data from June 2013 - December 2021. Specifically, we examine whether and how property prices across Australia may be impacted by overseas net migration by analysing property price index in each state/territory.
-The housing data and net overseas migration data were both downloaded from the Australian Bureau of Statistics website in CSV format. 
-After numerous team discussions and preliminary research, we formulated the below research questions to begin collating and cleansing data, to then develop visualisations to better enable us to develop analytical insight.
+There has been discussion in the media about overseas migration fuelling property price increases. An article in the Australian Financial Review (Kehoe, 2024) proposes migration in Australia has materially influenced rising property prices. Conversely an article from The Guardian (Nicholas, 2023) suggests that there is no conclusive evidence on migration affecting the Australian housing market.  As a team we set out to support or reject these conflicting hypotheses, and developed the following research questions.
+
 
 #### Research questions:
-1). What was the highest and lowest states/territories impacted by net overseas migration between Jun 2013- Dec 2021?
-2). What was the highest and lowest states/territories impacted by housing price change between Jun 2013- Dec 2021?
-3). Is there correlation between net overseas migration and the property pices index in each state/territory?
+1). What were the states/territories most and least impacted by overseas migration in the last 10 years?
+2). What were the capital cities most and least impacted by the rise in property prices in that same period?
+3). Is there any correlation between overseas migration and property prices?
 
 
 #### Data cleansing
@@ -33,7 +34,11 @@ The 'dropna' function was used to remove rows with no data. Research (Pandas, 20
 
 Finally as the migration data frame is recorded in thousands (rounded) whilst the property price index data used a reference period of 2011-12 for all city indexes, the data was replicated in both cleaned data frames to show a relative percentage change (rounded to two decimal places) from the preceding quarter utilising the ‘pct_change’ function. This enabled further data analysis, allowing a comparison between the rate of change between each variable on a quarter-by-quarter basis.
 
-## Based on the property data, what was the highest and lowest states/territories impacted by housing prices between 2013-2021?
+### What were the states/territories most and least impacted by overseas migration in the last 10 years?
+
+Simone's section
+
+### WWhat were the capital cities most and least impacted by the rise in property prices in that same period?
 
 To identify which state/territory has the highest and lowest housing price or price movements between June 2013 and December 2023, as reflected in the housing price for the capital cities, we generated the summary statistics as well as the total variation from the beginning to the end of the period. As shown below, the capital city that has the the highest price is undoubtedly Sydney while the housing price in Hobart increased the most during the period. The only city where the housing price actually decreased is Darwin. The housing price in the capital city would be expected to be largely in line with the trend in the state.
 
@@ -46,7 +51,7 @@ To show the movements of housing price for each city, line charts are generated 
 The housing price has, in general, presented increasing trend for 6 of the capital cities with Perth and Darwin presenting a declining trend. The dynamic changes of housing price in Melbourne and Hobart are also worth noting. In combination with the movements of net migration in these two cities, it seems that more people may have moved from Melbourne to Hobart, which in turn may have caused the increased housing price in Hobart and decreased housing price in Melbourne. The charts also suggest that Perth and Darwin are most affordable cities to own a residential property. 
 
 
-#### Correlation between Migration and the Property Prices Index in each State/Territory
+#### Is there any correlation between overseas migration and property prices?
 
 
 Until now, we have analysed the variables independently and which states and capitals have presented the highest and lowest impacts. 
@@ -79,7 +84,7 @@ From a more visual perspective, it is clear from the line charts that these two 
 
 ![Line Chart - Migration](Screenshots/LineChartMigrationScreenshot.png)
 
-![Line Chart - Vartiation](LineChartVariationPropertyIndexScreenshot.png)
+![Line Chart - Variation](Screenshots/LineChartVariationPropertyIndexScreenshot.png)
 
 # References
 
