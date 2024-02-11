@@ -35,15 +35,15 @@ Finally as the migration data frame is recorded in thousands (rounded) whilst th
 
 ## Based on the property data, what was the highest and lowest states/territories impacted by housing prices between 2013-2021?
 
-To identify which state/territory has the highest and lowest housing price or price movements between June 2013 and December 2023, as reflected in the housing price for the capital cities, we generated the summary statistics as well as the total variation from the beginning to the end of the period. As shown in the Table below, The capital city that has the the highest price is undoubtedly Sydney while the housing price in Hobart increased the most during the period. The only city where the housing price actually decreased is Darwin. The housing price in the capital city would be expected to be largely in line with the trend in the state.
+To identify which state/territory has the highest and lowest housing price or price movements between June 2013 and December 2023, as reflected in the housing price for the capital cities, we generated the summary statistics as well as the total variation from the beginning to the end of the period. As shown below, the capital city that has the the highest price is undoubtedly Sydney while the housing price in Hobart increased the most during the period. The only city where the housing price actually decreased is Darwin. The housing price in the capital city would be expected to be largely in line with the trend in the state.
 
-![alt text](image.png)
+![Property Boxplot Plot](Screenshots/BoxPlotPropertyScreenshot.png)
 
 To show the movements of housing price for each city, line charts are generated as below.
 
-![alt text](image-1.png)
+![Line Chart Property](Screenshots/LineChartPropertyScreenshot.png)
 
-As shown in the line charts, at the beginning of the period, the housing price in each capital cities does not appear to be significantly different. The housing price has, in general, presented increasing trend for 6 of the capital cities with Perth and Darwin presenting a declining trend. The dynamic changes of housing price in Melbourne and Hobart are also worth noting. In combination with the movements of net migration in these two cities, it seems that more people may have moved from Melbourne to Hobart, which in turn may have caused the increased housing price in Hobart and decreased housing price in Melbourne. The charts also suggest that Perth and Darwin are most affordable cities to own a residential property. 
+The housing price has, in general, presented increasing trend for 6 of the capital cities with Perth and Darwin presenting a declining trend. The dynamic changes of housing price in Melbourne and Hobart are also worth noting. In combination with the movements of net migration in these two cities, it seems that more people may have moved from Melbourne to Hobart, which in turn may have caused the increased housing price in Hobart and decreased housing price in Melbourne. The charts also suggest that Perth and Darwin are most affordable cities to own a residential property. 
 
 
 #### Correlation between Migration and the Property Prices Index in each State/Territory
@@ -59,24 +59,27 @@ By comparing the total net migration per state within that period with the prope
 
 ![Scatter Plot](Screenshots/ScatterPlotScreenshot.png)
 
+The scatter plot above indicates that the results vary significantly from state to state. For instance, Tasmania and Northern Territory recorded the lowest net migration figures. Interestingly, these states differ in terms of the variation in the property price index. Tasmania had the highest positive variation, whereas the Northern Territory had the highest negative variation. 
 
-add table
+Western Australia, Victoria and New South Wales followed a similar ascending line in the chart, but the Australian Capital Territory, South Australia, and Queensland presented random patterns.
+
+The result is also inconclusive if we look at the numbers and calculate the correlation between these two variables per state.
+
+At first glance, it may suggest a strong negative correlation between them. 
+
+![Correlation Table](Screenshots/CorrelationScreenshot.PNG)
 
 However, it is important to keep in mind that part of the data available refers to a period that was heavily affected by the COVID-19 pandemic, which can drastically influence the data.
 
-However, it is important to keep in mind that part of the data available refers to a period that was heavily affected by the COVID-19 pandemic, which can drastically influence the data.
-
-Add table
+![Correlation Table COVID](Screenshots/CorrelationCOVIDComparisonScreenshot.PNG)
 
 Let’s make an exercise and limit the measurements to the period not affected by the pandemic. As a result, we observe that the results are higher in all states, moving from negative to positive indexes in some of them. Nevertheless, it is still insufficient to establish a significant correlation between the variables.
 
 From a more visual perspective, it is clear from the line charts that these two indexes have entirely different and unrelated behaviours. 
 
-Add graph
+![Line Chart - Migration](Screenshots/LineChartMigrationScreenshot.png)
 
-Add graph
-
-Finally, after analyzing the available data, we cannot conclude that the property prices index is directly and significantly affected by the number of migrants entering or leaving Australia. While it may be one of the factors that impact the housing market, any claims suggesting that one causes the other are incorrect and premature.
+![Line Chart - Vartiation](LineChartVariationPropertyIndexScreenshot.png)
 
 # References
 
