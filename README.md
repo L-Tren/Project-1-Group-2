@@ -2,13 +2,13 @@
 
 Group members:
 
-    Fabiano Santos
-    
-    Lewis Trenerry
-    
-    Liwei Jiang
-    
-    Simone Nagel
+   Fabiano Santos
+   
+   Lewis Trenerry
+   
+   Liwei Jiang
+   
+   Simone Nagel
     
     
 ## Project title: A snapshot of net overseas migration and housing prices in Australia between June 2013 - December 2021
@@ -24,7 +24,9 @@ There has been discussion in the media about overseas migration fuelling propert
 
 #### Research questions:
 1). What were the states/territories most and least impacted by overseas migration in the last 10 years?
+
 2). What were the capital cities most and least impacted by the rise in property prices in that same period?
+
 3). Is there any correlation between overseas migration and property prices?
 
 
@@ -38,7 +40,7 @@ The 'dropna' function was used to remove rows with no data. Research (Pandas, 20
 
 Finally as the migration data frame is recorded in thousands (rounded) whilst the property price index data used a reference period of 2011-12 for all city indexes, the data was replicated in both cleaned data frames to show a relative percentage change (rounded to two decimal places) from the preceding quarter utilising the ‘pct_change’ function. This enabled further data analysis, allowing a comparison between the rate of change between each variable on a quarter-by-quarter basis.
 
-### What were the states/territories most and least impacted by overseas migration in the last 10 years?
+### 1). What were the states/territories most and least impacted by overseas migration in the last 10 years?
 
 In order to find out what states/territories were most and least impacted by overseas migration in the last 10 years, we used line, bar, and map graphs/visualisations be able to draw insights from the data.
 
@@ -52,25 +54,25 @@ We can also see that the mainland east coast states who traditionally have a hig
 
 ![Migration Line Chart](Screenshots/LineChartMigrationScreenshot.png)
 
-As shown in the above line chart, we can conclude that NSW and Victoria experienced the highest levels of net overseas migration in the years preceeding 2020. Interestingly these states also experienced the most drastic reduction in net migration, likely due to border closures during the COVID period from late 2020 to mid 2021. The line chart also shows a relatively flatter level and less volatile level of overseas migration for the small states/territories aross the researched time period.
+As shown in the above line chart, we can conclude that NSW and Victoria experienced the highest levels of net overseas migration in the years preceeding 2020. Interestingly these states also experienced the most drastic reduction in net migration, likely due to border closures during the COVID period from late 2020 to mid 2021. The line chart also shows a relatively flatter and less volatile level of overseas migration for the small states/territories aross the researched time period.
 
 
-### What were the capital cities most and least impacted by the rise in property prices in that same period?
+### 2). What were the capital cities most and least impacted by the rise in property prices in that same period?
 
 ![Property Bar Graph](Screenshots/BarChartPropertyScreeenshot.png)
 
-To identify which state/territory has the highest and lowest housing price or price movements between June 2013 and December 2023, as reflected in the housing price for the capital cities, we generated the bar graph above to display the total variation from the beginning to the end of the period. As shown below, the capital city that has the the highest Property Price Index Total Variation (%) interestingly was Hobart, which increased 111.10% during the researched time period. The only city where the Property Price Index Total Variation (%) decreased was Darwin. The housing price in the capital city would be expected to be largely in line with the trend in the rest of the state state.
+To identify which state/territory has the highest and lowest housing price index movements between June 2013 and December 2023, as reflected in the housing price for the capital cities, we generated the bar graph above to display the total variation from the beginning to the end of the period. As shown below, the capital city that has the the highest Property Price Index Total Variation (%) interestingly was Hobart, which increased 111.10% during the researched time period. The only city where the Property Price Index Total Variation (%) decreased was Darwin (-8.92%). The housing price in the capital city would be expected to be largely in line with the trend in the rest of the state state.
 
 
 ![Line Chart Property](Screenshots/LineChartPropertyScreenshot.png)
 
-The housing price has, in general, presented increasing trend for 6 of the capital cities with Perth being relatively flat and Darwin presenting a declining trend. The dynamic changes of housing price in Melbourne and Sydney are also worth noting. These two capital cities follow almost identical trends, perhaps not surprising as they are strong blue chip property markets. Hobart was a surprisingly strong performer, and overtook Melbourne in late 2018 to end the research period with the second highest growth in Property Price Index. Medium sized cities Brisbane, Adelaide, and Canberra all performed modestly until a strong surge beginning in 2020. 
+The housing price has, in general, presented increasing trend for 6 of the capital cities. Perth moved independently by first dipping and then surging to finish overall relatively flat in the research period, and Darwin presenting a declining trend. The dynamic changes of housing price in Melbourne and Sydney are also worth noting. These two capital cities follow almost identical trends, perhaps not surprising as they are strong blue chip property markets. Hobart was a surprisingly strong performer, and overtook Melbourne in late 2018 to end the research period with the second highest growth in Property Price Index. Medium sized cities Brisbane, Adelaide, and Canberra all performed modestly until a strong surge beginning in 2020. 
 
 ![Property Boxplot Plot](Screenshots/BoxPlotPropertyScreenshot.png)
 
-The boxplot interestingly shows the presence of outlier in our data set. There are 9 upper boundary outliers, spread across Sydney, Brisbane, Adeladie, and Canberra, and only two lower boundary outliers both residing in Sydney. This demonstrates the volatility the property market has experienced, and has been taken into consideration for our analysis regarding the correlation between net overseas migration and property prices
+The boxplot interestingly shows the presence of outliers in our data set. There are 9 upper boundary outliers, spread across Sydney, Brisbane, Adelaide, and Canberra, and only two lower boundary outliers both residing in Sydney. This demonstrates the volatility the property market has experienced, and has been taken into consideration for our analysis regarding the correlation between net overseas migration and property prices
 
-#### Is there any correlation between overseas migration and property prices?
+#### 3). Is there any correlation between overseas migration and property prices?
 
 
 Until now, we have analysed the variables independently and which states and capitals have presented the highest and lowest impacts. 
