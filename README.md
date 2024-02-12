@@ -2,13 +2,13 @@
 
 ### Group members:
 
-   Fabiano Santos
+* Fabiano Santos
    
-   Lewis Trenerry
+* Lewis Trenerry
    
-   Liwei Jiang
+* Liwei Jiang
    
-   Simone Nagel
+* Simone Nagel
     
     
 # Project title: A snapshot of net overseas migration and housing prices in Australia between June 2013 - December 2021
@@ -111,20 +111,35 @@ Finally, after analyzing the available data, we cannot conclude that the propert
 
 ### References
 
-Australian Bureau of Statistics. (2022a). "Graph 5.1 Net overseas migration(a) - larger states(b) - year ending" [CSV file]. Retrieved from https://www.abs.gov.au/statistics/people/population/overseas-migration/latest-release#cite-window1
+Australian Bureau of Statistics. (2022a). "Graph 5.1 Net overseas migration(a) - larger states(b) - year ending". 
+[Australian Bureau of Statistics. (2022a)](https://www.abs.gov.au/statistics/people/population/overseas-migration/latest-release#cite-window1)
 
-Australian Bureau of Statistics. (2022b). "Graph 5.2 Net overseas migration(a) - smaller states and territories(b) - year ending" [CSV file]. Retrieved from https://www.abs.gov.au/statistics/people/population/overseas-migration/latest-release#cite-window1
+Australian Bureau of Statistics. (2022b). "Graph 5.2 Net overseas migration(a) - smaller states and territories(b) - year ending". 
+[Australian Bureau of Statistics. (2022b)](https://www.abs.gov.au/statistics/people/population/overseas-migration/latest-release#cite-window1)
 
-Australian Bureau of Statistics. (2022c). "Residential Property Price Indexes, capital cities" [CSV file]. Retrieved from https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/residential-property-price-indexes-eight-capital-cities/latest-release
+Australian Bureau of Statistics. (2022c). "Residential Property Price Indexes, capital cities". 
+[Australian Bureau of Statistics. (2022c)](https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/residential-property-price-indexes-eight-capital-cities/latest-release)
 
-Australian Bureau of Statistics. (2022d). Location Census. Australian Bureau of Statistics. Retrieved from https://www.abs.gov.au/statistics/people/people-and-communities/location-census/latest-release
+Australian Bureau of Statistics. (2022d). Location Census. Australian Bureau of Statistics. 
+[Australian Bureau of Statistics. (2022d)](https://www.abs.gov.au/statistics/people/people-and-communities/location-census/latest-release)
 
-Kehoe, J. (2024, January 19). Migration boosts house prices but not inflation. Australian Financial Review. Retrieved from https://www.afr.com/policy/economy/migration-boosts-house-prices-but-not-inflation-20240119-p5eyni#:~:text=Migration%20surges%20in%20Australia%20have,the%20International%20Monetary%20Fund%20suggests
+Kehoe, J. (2024, January 19). Migration boosts house prices but not inflation. Australian Financial Review. 
+[Australian Financial Review](https://www.afr.com/policy/economy/migration-boosts-house-prices-but-not-inflation-20240119-p5eyni#:~:text=Migration%20surges%20in%20Australia%20have,the%20International%20Monetary%20Fund%20suggests)
 
-Nicholas, J. (2023, December 12). Australia sees immigration data spike driving migration rate and housing prices. The Guardian. Retrieved from https://www.theguardian.com/news/datablog/2023/dec/12/australia-immigration-data-spike-migration-rate-housing-prices
+Nicholas, J. (2023, December 12). Australia sees immigration data spike driving migration rate and housing prices. The Guardian. 
+[The Guardian](https://www.theguardian.com/news/datablog/2023/dec/12/australia-immigration-data-spike-migration-rate-housing-prices)
 
-OpenAI. (2022). ChatGPT [Computer software]. 
-Retrieved from https://openai.com/chatgpt
+OpenAI. (2022). ChatGPT Computer software. 
+[ChatGPT](https://openai.com/chatgpt)
 
 Pandas. (2024). pandas.Series.str.match. pandas documentation.
-Retrieved from https://pandas.pydata.org/docs/reference/api/pandas.Series.str.match.html
+[Pandas](https://pandas.pydata.org/docs/reference/api/pandas.Series.str.match.html)
+
+SimpleMaps. (2024). SimpleMaps Interactive Maps & Data. 
+[SimpleMaps](https://simplemaps.com)
+
+Stack Overflow. (2013, January 21). Scatter plot with different text at each data point. Stack Overflow. 
+[Stack Overflow](https://stackoverflow.com/questions/14432557/scatter-plot-with-different-text-at-each-data-point)
+
+W3Schools. (2024). pandas DataFrame - pct_change() Method. W3Schools. 
+[W3Schools](https://www.w3schools.com/python/pandas/ref_df_pct_change.asp)
